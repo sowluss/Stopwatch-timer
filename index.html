@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Stopwatch Timer</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="row">
+      
+    <div class="container col-md-6 offset-md-3 stopwatch">
+
+        <h2>Stop Watch Timer</h2>
+
+      <!-- Display -->
+      <div class="display container-fluid">
+          <div id="stopwatch">00:00:00</div>
+      </div>
+
+      <!-- Controls -->
+      <div class="controls container-fluid">
+        <button class="btn btn-success" onclick="start()">Start</button>
+        <button class="btn btn-secondary" onclick="pause()">Pause</button>
+        <button class="btn btn-danger" onclick="stop()">Stop</button>
+        <button class="btn btn-info" onclick="restart()">Restart</button>
+      </div>
+
+    </div>
+  </div>
+
+
+  <script src="main.js">
+
+  </script>
+</body>
+
+</html>
