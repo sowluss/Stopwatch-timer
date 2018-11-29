@@ -22,20 +22,14 @@ h2 {
   text-align: center;
   width: 100%;
   height: auto;
+  padding: 30px;
 }
 
 .stopwatch {
-  /* background: #ebebe3; */
   background: #c19898;
-  width: 400px;
-  height: 400px;
   margin: 0 auto;
   padding: 30px;
   border-radius: 5px;
-}
-
-.controls{
-  padding: 30px;
 }
 
 .display {
@@ -56,4 +50,10 @@ button:active {
   color: #ebebe3;
   font-family: 'Inconsolata', monospace;
   font-weight: 700;
+}
+
+@media (max-width: 420px) {
+  .btn-info {
+    display: none;
+  }
 }
